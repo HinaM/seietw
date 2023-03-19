@@ -122,12 +122,39 @@ header ul li:hover .dropdown{
 }
 .page .page1{
     width: 80%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .page .page1 h1{
     font-size: 36px;
     color: #124854;
+    margin-bottom: 30px;
+}
+.page .page1 .accordion .accordion_content{
+    border: 1px #000 solid;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.page .page1 .accordion .accordion_content .title{
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #65afa9;
+    padding: 15px;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+.page .page1 .accordion .accordion_content .title p{
+    font-size: 20px;
+}
+.page .page1 .accordion .accordion_content .description{
+    padding: 0px 15px;
+    height: 0;
+    transition: all 0.2s linear;
+    text-align: left;
+    color: #65afa9;
+}
+.page .page1 .accordion .accordion_content .description a{
+    color: #65afa9;
 }
 footer{
     width: 100%;
