@@ -72,9 +72,62 @@ header ul li:hover .dropdown{
     justify-content: center;
     flex-direction: column;
 }
-.container{
+.breadcrumb{
+    width: 100%;
+    height: 8vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.breadcrumb a{
+    color: #333;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.about{
     width: 100%;
     height: 80vh;
+    background-image: url("https://ppt.cc/fbO5Sx@.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+.about .about_center{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 25%;
+    padding: 30px;
+    margin-left: 50%;
+}
+.about .about_center h1{
+    font-size: 36px;
+    color: #124854;
+    margin-bottom: 20px;
+}
+.about .about_center p{
+    color: #65afa9;
+}
+.page{
+    padding: 30px 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.page .page1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.page .page1 h1{
+    font-size: 36px;
+    color: #124854;
 }
 footer{
     width: 100%;
