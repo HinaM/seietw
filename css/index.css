@@ -341,3 +341,101 @@ footer ul .icon a{
     cursor: pointer;
     margin-bottom: 50px;
 }
+.settlement{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settlement .settlements_info{
+    width: 80%;
+    height: fit-content;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.settlement .settlements_info .font{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.settlement .settlements_info .font h1{
+    font-size: 36px;
+    color: #124854;
+    margin-bottom: 30px;
+}
+.settlement .settlements_info .font .watchmore{
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 2rem;
+    background-color: #124854;
+    color: #fff;
+    padding: 8px 20px;
+}
+.settlement .settlements_info .images{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.settlement .settlements_info .images .imgs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.settlement .settlements_info .images .imgs .imgslogo{
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.settlement .settlements_info .images .imgs .imgslogo.m1{
+    background-image: url('https://ppt.cc/fRRL8x@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m2{
+    background-image: url('https://ppt.cc/fdvFdx@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m3{
+    background-image: url('https://ppt.cc/fZOMex@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m4{
+    background-image: url('https://ppt.cc/fAE7Hx@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m5{
+    background-image: url('https://ppt.cc/fcl73x@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m6{
+    background-image: url('https://ppt.cc/fcpz2x@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m7{
+    background-image: url('https://ppt.cc/faK25x@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m8{
+    background-image: url('https://ppt.cc/fQKkXx@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m9{
+    background-image: url('https://ppt.cc/frnYZx@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m10{
+    background-image: url('https://ppt.cc/fgJnXx@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m11{
+    background-image: url('https://ppt.cc/fiR7kx@.png');
+}
+.settlement .settlements_info .images .imgs .imgslogo.m12{
+    background-image: url('https://ppt.cc/fabNcx@.png');
+}
