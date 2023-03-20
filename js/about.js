@@ -18,7 +18,4 @@ accordionContent.forEach((item,index) => {
             title.style.color = "#fff";
         }
     })
-
-    
-    console.log(title);
 })
