@@ -178,7 +178,6 @@ footer ul .icon a{
     height: 50vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -205,6 +204,10 @@ footer ul .icon a{
 .fjuSoen .about .btns{
     display: flex;
     flex-direction: row;
+}
+.fjuSoen .about .btns a{
+    text-decoration: none;
+    color: inherit;
 }
 .fjuSoen .about .btns p{
     border-radius: 2rem;
@@ -247,6 +250,11 @@ footer ul .icon a{
     border-radius: 1rem;
     background-color: #c6c6c6;
     margin-bottom: 40px;
+    overflow: hidden;
+}
+.graduate .videos .video iframe{
+    height: 100%;
+    width: 100%;
 }
 .news{
     width: 100%;
