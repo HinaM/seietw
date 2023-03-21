@@ -184,11 +184,15 @@ header ul li:hover .dropdown{
 .page .page1 .members .member a{
     color: #124854;
 }
+.page .page1 .members .member li{
+    list-style: circle;
+}
 .page .page1 .members .member .profe{
     width: 100%;
     color: #999;
     font-size: 13px;
     text-align: center;
+    margin-bottom: 5px;
 }
 .page .page1 .members .member img{
     width: 100%;
