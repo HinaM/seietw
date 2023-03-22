@@ -196,7 +196,7 @@ footer ul .icon a{
     padding: 20px;
 }
 .product-card .memberinfo h2{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .product-card .memberinfo p{
@@ -207,10 +207,13 @@ footer ul .icon a{
     text-decoration: none;
 }
 .product-card .memberinfo .link{
+    position: absolute;
+    bottom: 20px;
+}
+.product-card .memberinfo .link p{
     color: #5dc2ba;
     font-size: 18px;
     cursor: pointer;
-    margin-top: 10px;
 }
 .card-btn {
     position: absolute;
