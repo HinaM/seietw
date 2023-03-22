@@ -116,7 +116,7 @@ footer ul .icon a{
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: url('https://ppt.cc/fYXLSx@.png');
+    background-image: url('../img/banner.png');
     background-size: cover;
 }
 .more{
@@ -412,38 +412,41 @@ footer ul .icon a{
     background-repeat: no-repeat;
 }
 .settlement .settlements_info .images .imgs .imgslogo.m1{
-    background-image: url('https://ppt.cc/fRRL8x@.png');
+    background-image: url('../img/Lockists.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m2{
-    background-image: url('https://ppt.cc/fdvFdx@.png');
+    background-image: url('../img/SO\ BRIGHT手不盲.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m3{
-    background-image: url('https://ppt.cc/fZOMex@.png');
+    background-image: url('../img/台灣社會企業創新創業學會.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m4{
-    background-image: url('https://ppt.cc/fAE7Hx@.png');
+    background-image: url('../img/綠腳印.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m5{
-    background-image: url('https://ppt.cc/fcl73x@.png');
+    background-image: url('../img/原風禮坊.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m6{
-    background-image: url('https://ppt.cc/fcpz2x@.png');
+    background-image: url('../img/輔大永續影響力大使社.png');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m7{
-    background-image: url('https://ppt.cc/faK25x@.png');
+    background-size: contain;
+    background-image: url('../img/大漢酵素.png');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m8{
-    background-image: url('https://ppt.cc/fQKkXx@.png');
+    background-image: url('../img/微酒.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m9{
-    background-image: url('https://ppt.cc/frnYZx@.png');
+    background-image: url('../img/竹峰茗茶.jpg');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m10{
-    background-image: url('https://ppt.cc/fgJnXx@.png');
+    background-image: url('../img/幸福蜂蜜.png');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m11{
-    background-image: url('https://ppt.cc/fiR7kx@.png');
+    background-size: contain;
+    background-image: url('../img/腎貓協會.png');
 }
 .settlement .settlements_info .images .imgs .imgslogo.m12{
-    background-image: url('https://ppt.cc/fabNcx@.png');
+    background-size: contain;
+    background-image: url('../img/恩食生技.png');
 }
