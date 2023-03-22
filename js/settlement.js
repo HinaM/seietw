@@ -14,3 +14,11 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+const meminfo_card1 = document.getElementById('meminfo-card1');
+function meminfo1(){
+    meminfo_card1.classList.add("open");
+}
+function meminfo1_close(){
+    meminfo_card1.classList.remove("open");
+}
