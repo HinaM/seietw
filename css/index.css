@@ -481,7 +481,36 @@ footer ul .icon a{
     }
     header ul li{
         border: none;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
+    }
+    header ul li .dropdown {
+        margin-left: 20px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        background-color: #fff;
+        border-radius: 0;
+        box-shadow: none;
+       ;
+    }
+    header ul li .dropdown li {
+        margin-bottom: 3px;
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        border-bottom: 0;
+        border-bottom-width: 0;
+        border-left: none;
+    }
+    header ul li .dropdown li a{
+        border-bottom: 0;
+    }
+    header ul li:hover .dropdown{
+        
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
     }
     .fjuSoen{
         width: 100%;
@@ -524,5 +553,15 @@ footer ul .icon a{
     .settlement .settlements_info .font,
     .settlement .settlements_info .images{
         width: 100%;
+    }
+    .settlement .settlements_info .images{
+        overflow-x: scroll;
+    }
+    .settlement .settlements_info .images .imgs {
+        width: 100%;
+        display: -webkit-inline-box;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
     }
 }
