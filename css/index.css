@@ -495,4 +495,34 @@ footer ul .icon a{
     .fjuSoen .about{
         width: 100%;
     }
+    .fjuSoen .about .btns{
+        flex-direction: column;
+        text-align: center;
+    }
+    .graduate .videos{
+        width: 100%;
+        flex-direction: column;
+    }
+    .graduate .videos .video{
+        width: 80%;
+    }
+    .news .news_blocks{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .news .news_blocks .block,
+    .news .news_blocks .blockonlywords{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .news .moreinfo{
+        margin-bottom: 20px;
+    }
+    .settlement .settlements_info{
+        flex-direction: column;
+    }
+    .settlement .settlements_info .font,
+    .settlement .settlements_info .images{
+        width: 100%;
+    }
 }
