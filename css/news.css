@@ -210,6 +210,35 @@ footer ul .icon a{
     right: 20px;
     cursor: pointer;
 }
+.page{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: rgb(157, 157, 157);
+    margin-bottom: 80px;
+}
+.page .btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px rgb(157, 157, 157) solid;
+    cursor: pointer;
+}
+.page .btn:hover{
+    color: #000;
+    border: 1px #000 solid;
+}
+.page .page_number{
+    margin: 0 20px;
+    color: #000;
+}
 @media only screen and (max-width:900px){
     header{
         height: fit-content;
