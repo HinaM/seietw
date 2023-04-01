@@ -407,7 +407,7 @@ footer ul .icon a{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.settlement .settlements_info .images .imgs .imgslogo{
+.settlement .settlements_info .images .imgslogo{
     width: 120px;
     height: 120px;
     background-color: #fff;
@@ -415,42 +415,47 @@ footer ul .icon a{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.settlement .settlements_info .images .imgs .imgslogo.m1{
+.settlement .settlements_info .images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 120px;
+}
+.settlement .settlements_info .images .imgslogo.m1{
     background-image: url('../img/Lockists.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m2{
+.settlement .settlements_info .images .imgslogo.m2{
     background-image: url('../img/SO\ BRIGHT手不盲.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m3{
+.settlement .settlements_info .images .imgslogo.m3{
     background-image: url('../img/台灣社會企業創新創業學會.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m4{
+.settlement .settlements_info .images .imgslogo.m4{
     background-image: url('../img/綠腳印.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m5{
+.settlement .settlements_info .images .imgslogo.m5{
     background-image: url('../img/原風禮坊.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m6{
+.settlement .settlements_info .images .imgslogo.m6{
     background-image: url('../img/輔大永續影響力大使社.png');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m7{
+.settlement .settlements_info .images .imgslogo.m7{
     background-size: contain;
     background-image: url('../img/大漢酵素.png');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m8{
+.settlement .settlements_info .images .imgslogo.m8{
     background-image: url('../img/微酒.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m9{
+.settlement .settlements_info .images .imgslogo.m9{
     background-image: url('../img/竹峰茗茶.jpg');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m10{
+.settlement .settlements_info .images .imgslogo.m10{
     background-image: url('../img/幸福蜂蜜.png');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m11{
+.settlement .settlements_info .images .imgslogo.m11{
     background-size: contain;
     background-image: url('../img/腎貓協會.png');
 }
-.settlement .settlements_info .images .imgs .imgslogo.m12{
+.settlement .settlements_info .images .imgslogo.m12{
     background-size: contain;
     background-image: url('../img/恩食生技.png');
 }
@@ -506,11 +511,34 @@ footer ul .icon a{
         border-bottom: 0;
     }
     header ul li:hover .dropdown{
-        
         display: flex;
         align-items: left;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+    }
+    footer ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin: 0;
+    }
+    footer ul li{
+        list-style: none;
+        margin: 3px 8px;
+    }
+    footer .font{
+        
+        margin:10px 8px 0 8px;
     }
     .fjuSoen{
         width: 100%;
@@ -554,14 +582,17 @@ footer ul .icon a{
     .settlement .settlements_info .images{
         width: 100%;
     }
-    .settlement .settlements_info .images{
-        overflow-x: scroll;
-    }
+    
     .settlement .settlements_info .images .imgs {
         width: 100%;
         display: -webkit-inline-box;
         margin-top: 5px;
         margin-bottom: 5px;
         
+    }
+    .settlement .settlements_info .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 120px;
     }
 }
