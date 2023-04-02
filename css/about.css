@@ -159,6 +159,7 @@ header .listicon{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: left;
+    transition: 0.4s;
   }
   .panel a{
     color:#65afa9;
