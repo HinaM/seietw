@@ -140,6 +140,8 @@ header .listicon{
     border-radius: 1rem;
 }
 .accordion {
+    font-size: 20px;
+    font-weight: 700;
     background-color: #65afa9;
     text-align: center;
     color: #fff;
