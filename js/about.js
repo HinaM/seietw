@@ -11,7 +11,7 @@ for (i = 0; i < acc.length; i++) {
         this.style.backgroundColor = "#65afa9";
         this.style.color = "#fff";
     } else {
-        panel.style.maxHeight = panel.scrollHeight+180 + "px";
+        panel.style.maxHeight = panel.scrollHeight+200 + "px";
         panel.style.margin = "20px 30px";
         this.style.backgroundColor = "#fff";
         this.style.color = "#124854";

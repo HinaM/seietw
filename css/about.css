@@ -166,35 +166,6 @@ header .listicon{
   .panel a{
     color:#65afa9;
   }
-/*
-.page .page1 .accordion .accordion_content{
-    border: 1px #000 solid;
-    border-radius: 1rem;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-.page .page1 .accordion .accordion_content .title{
-    border-radius: 1rem;
-    cursor: pointer;
-    background-color: #65afa9;
-    padding: 15px;
-    color: #fff;
-    transition: all 0.2s linear;
-}
-.page .page1 .accordion .accordion_content .title p{
-    font-size: 20px;
-}
-.page .page1 .accordion .accordion_content .description{
-    padding: 0px 15px;
-    height: 0;
-    transition: all 0.2s linear;
-    text-align: left;
-    color: #65afa9;
-}
-.page .page1 .accordion .accordion_content .description a{
-    color: #65afa9;
-}
-*/
 .page .page1 .members{
     width: 100%;
     height: fit-content;
@@ -204,7 +175,7 @@ header .listicon{
 }
 .page .page1 .members .member{
     width: 32%;
-    height: 90vh;
+    height: fit-content;
     border: 1px #999 solid;
     margin-bottom: 30px;
     display: flex;
@@ -371,5 +342,11 @@ footer ul .icon a{
         margin-left: auto;
         margin-right: auto;
     }
-    
+    .page .page1 .members{
+        flex-direction: column;
+    }
+    .page .page1 .members .member{
+        width: 90%;
+        height: fit-content;
+    }
 }
