@@ -19,6 +19,11 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+header a{
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+}
 header .logo{
     display: flex;
     align-items: center;
