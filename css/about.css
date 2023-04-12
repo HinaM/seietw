@@ -22,7 +22,7 @@ header{
 header a{
     color: inherit;
     text-decoration: none;
-    width: 100%;
+    
 }
 header .logo{
     display: flex;
@@ -175,12 +175,15 @@ header .listicon{
     margin-top: 0;
     margin-bottom: 30px;
   }
-  .page .page1 .members{
+.page .page1 .members{
     width: 100%;
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.page .page1 .members .member.goleft{
+    margin-right: auto;
 }
 .page .page1 .members .member{
     width: 32%;
@@ -412,5 +415,9 @@ footer ul .icon a{
     }
     .page .page1 .members .member .profe{
         white-space: pre-line;
+    }
+    .page .page1 .members .member.goleft{
+        margin-right: auto;
+        margin-left: auto;
     }
 }
