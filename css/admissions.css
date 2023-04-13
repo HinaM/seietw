@@ -146,6 +146,10 @@ footer ul .icon a{
     align-items: flex-start;
     flex-direction: column;
 }
+.news .name{
+    color: #124854;
+    
+}
 .news h1{
     width: 100%;
     text-align: center;
@@ -160,7 +164,7 @@ footer ul .icon a{
 }
 .news img{
     width: 100%;
-    height: 60vh;
+    
     object-fit: cover;
 }
 .news ul li{
