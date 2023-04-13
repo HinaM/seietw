@@ -199,6 +199,10 @@ footer ul .icon a{
     height: 50%;
     padding: 20px;
 }
+.news .news_blocks .block .fontinfo a{
+    color: inherit;
+    text-decoration: none;
+}
 .news .news_blocks .block .fontinfo h2{
     font-size: 25px;
 }
@@ -215,6 +219,7 @@ footer ul .icon a{
     right: 20px;
     cursor: pointer;
 }
+
 .page{
     width: 80%;
     margin-left: auto;
